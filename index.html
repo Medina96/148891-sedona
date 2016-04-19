@@ -10,113 +10,91 @@
    	<div class="container">
    		<nav class="main-nav">
    			<ul class="main-nav-list">
-   				<li class="main-nav-iten">
+   				<li class="main-nav-item">
    					<a href="#" class="main-nav-link">Информация</a></li>
-   				<li class="main-nav-iten">
+   				<li class="main-nav-item">
    					<a href="#" class="main-nav-link">Фото и видео</a></li>
    					<div class="header-logo">
    						<a href="#"><img src="img/logo.png"></a>	
    					</div>
-   				<li class="main-nav-iten">
+   				<li class="main-nav-item">
    					<a href="#" class="main-nav-link">Карта штата</a></li>
-   				<li class="main-nav-iten">
+   				<li class="main-nav-item">
    					<a href="#" class="main-nav-link">Гостиницы</a></li>
    			</ul>
    		</nav>
    	</div>
    </header>
+
 	<main class="container">
-		<img src="img/index-logo.png" width="1200" heigth="510" alt="welcome to sedona">
-		<div class="img-text">
-			<img src="welcome to the gorgeous">
-			<h1>sedona</h1>
-			<img src="because">
+		<div class="promo">
+			<img src="img/index-logo.png" width="1200" heigth="510" alt="welcome to sedona">
+			<img src="img/sedona.png">
 		</div>
 		<div class="of-sedona">
 			<h2>Седона-небольшой городок в аризоне, заслуживающий большего!</h2>
 			<p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
 		</div>
 		<section class="blocks">
-			<article class="blocks-item">
-				<div class="blocks-item-blue">
+
+			<div class="wrap">
+				<div class="blocks-item" class="blocks-item-blue">
 					<b>Настоящий<br> городок</b>
 					<p>№1</p>
 					<p>Седона-не аттракцион для туристов,там течет своя жизнь</p>
 				</div>
-			</article>
-			<article class="blocks-item">
-				<div class="blocks-item-long">
-					<img src="img/sedona1.png" width="800" heigth="256" alt="седона">
+
+				<div class="blocks-item" class="blocks-item-long">
+						<img src="img/sedona1.png" width="800" heigth="256" alt="седона">
 				</div>
-			</article>
-			<article class="blocks-item">
-				<div class="blocks-item-white">
-					<img src="img/house.png">
+			</div>
+
+			<div class="wrap">
+				<div class="blocks-item" class="blocks-item-white">
 					<b>Жилье</b>
 					<p>рекомендуем пожить в настоящем мотеле, все как в кино!</p>
 				</div>
-
-				МОЖЕТ СДЕЛАТЬ КНОПКОЙ?
-
-			</article>
-			<article class="blocks-item">
-				<div class="blocks-item-white">
-					<img src="img/burger.png">
+				<div class="blocks-item" class="blocks-item-white">
 					<b>Еда</b>
 					<p>всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
 				</div>
-				
-				И ЭТО
-
-			</article>
-			<article class="blocks-item">
-				<div class="blocks-item-white">
-					<img src="img/present.png">
+				<div class="blocks-item" class="blocks-item-white">
 					<b>Сувениры</b>
 					<p>не только китайского, но и местного производства!</p>
 				</div>
+			</div>
 
-				И ЭТО
-				
-			</article>
-			<article class="blocks-item">
-				<div class="blocks-item-long">
+			<div class="wrap">
+				<div class="blocks-item" class="blocks-item-long">
 					<img src="img" width="800" heigth="256" alt="седона">
 				</div>
-			</article>
-			<article class="blocks-item">
-				<div class="blocks-item-blue">
+				<div class="blocks-item" class="blocks-item-blue">
 					<b>Там есть <br> мост дьявола </b>
 					<p>№2</p>
 					<p>Да, по нему можно пройти! Если вы конечно осмелитесь </p>
 				</div>
-			</article>
-			<article class="blocks-item">
-				<div class="blocks-item-text">
+			</div>
+
+			<div class="wrap">
+				<div class="blocks-item"  class="blocks-item-text">
 					<b>Небольшая площадь</b>
 					<p>№3</p>
 					<p>Все достопримечательности находятся очень близко</p>
 				</div>
-				
-			</article>
-			<article class="blocks-item">
-				<div class="blocks-item-text">
+				<div class="blocks-item" class="blocks-item-text">
 					<b>Красивая дорога</b>
 					<p>№4</p>
 					<p>ехать в седону из лас-вегаса совсем не скучно!</p>
-			</div>
-			</article>
-			<article class="blocks-item">
-				<div class="blocks-item-text">
+				</div>
+				<div class="blocks-item" class="blocks-item-text">
 					<b>Мало туристов</b>
 					<p>№5</p>
 					<p>большинство едет в гранд каньон и толпится там</p>
 				</div>
-			</article>
-
-			
+			</div>	
 		</section>
-		<section="form">
+		<section class="form">
+			<!-- добавить форму -->
 			<h2>Заинтересовались</h2>
 			<p>укажите предпологаемые даты поездки,<br> 
 			и мы покажем вам лучшие предложения гостинец в седоне</p>
@@ -132,9 +110,11 @@
 			<img src="img/visitsedona.png">
 		</section>
 		<section class="footer-social">
-			<a class="social-btn social-btn-tv" href="#">Твиттер</a>
-			<a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-			<a class="social-btn social-btn-you" href="#">Ютуб</a>
+			<ul>
+				<li><a class="social-btn social-btn-tv" href="#">Твиттер</a></li>
+				<li><a class="social-btn social-btn-fb" href="#">Фейсбук</a></li>
+				<li><a class="social-btn social-btn-you" href="#">Ютуб</a></li>
+			</ul>	
 		</section>
 		<section class="footer-academy">
 			<p>website by</p>
