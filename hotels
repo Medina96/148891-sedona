@@ -51,7 +51,7 @@
 				<label for="luxury">Апартаменты</label>
 			<h2 class="index-content">стоимость в сутки(р):</h2>
 				<input type="text" size=""> <!-- много много вопросов -->
-				<input type="range" min="0" max="3000" step="20" value="0,10"> <!-- здесь были вопросы, я попробовала, посмотри  -->
+				<input type="range" min="0" max="3000" step="100"> <!-- здесь были вопросы, я попробовала, посмотри  -->
 				<a class="btn" href="#">Показать</a>
 		</section>
 		<section class="results">
@@ -59,13 +59,13 @@
 				<div class="results-top-left">
 					<h3>Найдено:3</h3>
 					<p>Сортировка:</p> <!-- сделать списком? -->
-					<a class="results-top-left" href="#">По цене</a>
-					<a class="results-top-left" href="#">по типу</a>
-					<a class="results-top-left" href="#">по рейтингу</a>
+					<a class="results-top-item" href="#">По цене</a>
+					<a class="results-top-item" href="#">по типу</a>
+					<a class="results-top-item" href="#">по рейтингу</a>
 				</div>
 				<div class="results-top-right">
-					<a class="results-inversio" href="#"></a>
-					<a class="results-inversio" href="#"></a>
+					<a class="results-top-inversio" href="#">&#9650;</a>
+					<a class="results-top-inversio" href="#">&#9660;</a>
 				</div>
 			</div>
 			<div class="results-page">
@@ -74,15 +74,18 @@
 					<div class="item-left">
 						<img src="#">
 						<h4>Amara Resort & Spa</h4>
+<div>                                                              СДЕЛАТЬ КАК ТУТ
 						<p>Гостиница</p>
+						<a class="results-btn-blue" href="#">подробнее</a> 
+
 						<p>от 3500 р.</p>
-						<div class="results-btn">
-							<a class="results-btn-blue" href="#">подробнее</a>
-							<a class="results-btn-brown" href="#">забронировать</a>
+						<a class="results-btn-brown" href="#">забронировать</a>
+						   
+							
 						</div>
 					</div>
 					<div class="item-right">
-						<p class="stars"></p> <!--не знаю как оформить звездочки. В макете они текст. -->
+						<p class="stars">&#9733; &#9733; &#9733; &#9733;</p> <!--не знаю как оформить звездочки. В макете они текст. -->
 						<p class="rating">Рейтинг: 8,5</p>
 					</div>
 					
@@ -100,7 +103,7 @@
 						</div>
 					</div>
 					<div class="item-right">
-						<p class="stars"></p> <!--не знаю как оформить звездочки. В макете они текст. -->
+						<p class="stars">&#9733; &#9733;</p> <!--не знаю как оформить звездочки. В макете они текст. -->
 						<p class="rating">Рейтинг: 8,9</p>
 					</div>	
 				</div>
@@ -117,7 +120,7 @@
 						</div>
 					</div>
 					<div class="item-right">
-						<p class="stars"></p> <!--не знаю как оформить звездочки. В макете они текст. -->
+						<p class="stars">&#9733; &#9733; &#9733;</p> <!--не знаю как оформить звездочки. В макете они текст. -->
 						<p class="rating">Рейтинг: 9,2</p>
 					</div>
 					
