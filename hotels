@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+	<meta charset="utf-8">
+	<title>HTML Academy: Седона</title>
+	</head>
+	<body>
+	<div class="all-wrap">
+	<header class="main-header">
+		<div class="container">
+			<nav class="main-nav">
+				<ul class="main-nav-list">
+					<li class="main-nav-item">
+						<a href="#" class="main-nav-link">Информация</a>
+					</li>
+					<li class="main-nav-item">
+						<a href="#" class="main-nav-link">Фото и видео</a>
+					</li>
+					<div class="header-logo">
+						<a href="#"><img src="img/logo.png"> </a>	
+					</div>
+					<li class="main-nav-item">
+						<a href="#" class="main-nav-link">Карта штата</a>
+					</li>
+					<li class="main-nav-item">
+						<a href="#" class="main-nav-link">Гостиницы</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main class="container">
+		<section class="filters">
+			<h2 class="index-content">Инфраструктура:</h2>
+				<input type="checkbox" id="pool">
+				<label for="pool">Бассейн</label>
+
+				<input type="checkbox" id="parking">
+				<label for="parking">Парковка</label>
+
+				<input type="checkbox" id="wi-fi">
+				<label for="wi-fi">WI-FI</label>
+			<h2 class="index-content">Тип жилья:</h2>
+				<input type="checkbox" id="hotel">
+				<label for="hotel">Гостиница</label>
+
+				<input type="checkbox" id="motel" >
+				<label for="motel">Мотель</label>
+
+				<input type="checkbox"  id="luxury">
+				<label for="luxury">Апартаменты</label>
+			<h2 class="index-content">стоимость в сутки(р):</h2>
+				<input type="text" size=""> <!-- много много вопросов -->
+				<input type="range" min="0" max="3000" step="20" value="0,10"> <!-- здесь были вопросы, я попробовала, посмотри  -->
+				<a class="btn" href="#">Показать</a>
+		</section>
+		<section class="results">
+			<div class="results-top">
+				<div class="results-top-left">
+					<h3>Найдено:3</h3>
+					<p>Сортировка:</p> <!-- сделать списком? -->
+					<a class="results-top-left" href="#">По цене</a>
+					<a class="results-top-left" href="#">по типу</a>
+					<a class="results-top-left" href="#">по рейтингу</a>
+				</div>
+				<div class="results-top-right">
+					<a class="results-inversio" href="#"></a>
+					<a class="results-inversio" href="#"></a>
+				</div>
+			</div>
+			<div class="results-page">
+				<div class="results-page-item">
+
+					<div class="item-left">
+						<img src="#">
+						<h4>Amara Resort & Spa</h4>
+						<p>Гостиница</p>
+						<p>от 3500 р.</p>
+						<div class="results-btn">
+							<a class="results-btn-blue" href="#">подробнее</a>
+							<a class="results-btn-brown" href="#">забронировать</a>
+						</div>
+					</div>
+					<div class="item-right">
+						<p class="stars"></p> <!--не знаю как оформить звездочки. В макете они текст. -->
+						<p class="rating">Рейтинг: 8,5</p>
+					</div>
+					
+				</div>
+				<div class="results-page-item">
+
+					<div class="item-left">
+						<img src="#">
+						<h4>Desert Quail Inn</h4>
+						<p>Мотель</p>
+						<p>от 2000 р.</p>
+						<div class="results-btn">
+							<a class="results-btn-blue" href="#">подробнее</a>
+							<a class="results-btn-brown" href="#">забронировать</a>
+						</div>
+					</div>
+					<div class="item-right">
+						<p class="stars"></p> <!--не знаю как оформить звездочки. В макете они текст. -->
+						<p class="rating">Рейтинг: 8,9</p>
+					</div>	
+				</div>
+				<div class="results-page-item">
+
+					<div class="item-left">
+						<img src="#">
+						<h4>Villas at Poco Diablo</h4>
+						<p>Апартаменты</p>
+						<p>от 4000 р.</p>
+						<div class="results-btn">
+							<a class="results-btn-blue" href="#">подробнее</a>
+							<a class="results-btn-brown" href="#">забронировать</a>
+						</div>
+					</div>
+					<div class="item-right">
+						<p class="stars"></p> <!--не знаю как оформить звездочки. В макете они текст. -->
+						<p class="rating">Рейтинг: 9,2</p>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+	</main>
+
+		<footer class="container">
+			<section class="footer-visitsedona">
+				<img src="img/visitsedona.png">
+			</section>
+			<section class="footer-social">
+				<ul>
+					<li><a class="social-btn social-btn-tv" href="#">Твиттер</a></li>
+					<li><a class="social-btn social-btn-fb" href="#">Фейсбук</a></li>
+					<li><a class="social-btn social-btn-you" href="#">Ютуб</a></li>
+				</ul>	
+			</section>
+			<section class="footer-academy">
+				<p>website by</p>
+				<img src="img/html-academy.png">	
+			</section>
+			
+		</footer>
+	</div>
+	</body>
+</html>
