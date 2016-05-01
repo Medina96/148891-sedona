@@ -170,13 +170,51 @@ h2 {
 	min-height: 151px;
 }
 
-.item-left {
+/*.item-left {
 	outline: 1px solid #000;
 	width: 528px;
 	float: left;
 	min-height: 151px;
 	text-align: left;
-	margin-right: 41px;
+	margin-right: 41px; */
+}
+
+.results-title,
+.results-sort {
+	display: inline-block;
+	vertical-align: center;
+	outline: 1px solid #000;
+}
+
+.results-img{
+	width: 165px;
+	display: inline-block;
+	vertical-align: center;
+	outline: 1px solid #000;
+}
+
+.results-name-hotel {
+	display: inline-block;
+	vertical-align: top;
+	outline: 1px solid #000;
+}
+
+.results-info{
+	display: inline-block;
+	vertical-align: center;
+	outline: 1px solid #000;
+}
+
+.item-left-more {
+	display: inline-block;
+	vertical-align: center;
+	outline: 1px solid #000;
+}
+
+.item-left-reserv{
+	display: inline-block;
+	vertical-align: center;
+	outline: 1px solid #000;	
 }
 
 .item-right {
@@ -185,6 +223,4 @@ h2 {
 	float: right;
 	min-height: 151px;
 	text-align: right;
-}
-
-
+	}
