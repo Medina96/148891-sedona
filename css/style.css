@@ -27,6 +27,11 @@ h2 {
  clear: both;
 }
 
+.container {
+	width: 1060px;
+	margin: 0 auto;
+}
+
 .all-wrap {
 	width: 1200px;
 	margin: 0 auto;
@@ -120,23 +125,19 @@ h2 {
 	background-color: blue;
 
 }
-.filters-left-1,
-.filters-left-2 {
-	text-align: left; /* сомневаюсь в нужности*/
+
+.filters-left {
 	width: 240px;
 	float: left;
 	outline: 1px solid #000;
 	min-height: 217px;
-	margin-left: 73px; /*для первой колонки марджин нужен, а для второй нет, как это сделать? я добавила дивы filters-left-1*/
 }
 
-.filters-left-3 {
-	text-align: right; /* сомневаюсь в нужности*/
+.filters-right {
 	width: 328px;
 	float: right;
 	outline: 1px solid #000;
-	min-height: 217px;
-	margin-right: 73px; 
+	min-height: 217px; 
 }
 
 .results-top {
@@ -148,7 +149,6 @@ h2 {
 	float: left;
 	outline: 1px solid #000;
 	min-height: 55px;
-	margin-left: 73px; 
 	text-align: left;
 }
 
@@ -157,7 +157,6 @@ h2 {
 	float: right;
 	outline: 1px solid #000;
 	min-height: 55px;
-	margin-right: 73px; 
 	text-align: right;
 }
 
@@ -166,7 +165,7 @@ h2 {
 }
 
 .results-page-item {
-	width: 1128px;
+
 	outline: 1px solid #000;
 	min-height: 151px;
 }
