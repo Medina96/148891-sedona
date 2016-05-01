@@ -19,4 +19,173 @@ h2 {
 	line-height: 1.5;
 	color: #000;
 	font-weight: bold;
+} 
+
+.clearfix:after {
+ content: '';
+ display: table;
+ clear: both;
 }
+
+.all-wrap {
+	width: 1200px;
+	margin: 0 auto;
+	outline: 1px solid #000;
+}
+
+.main-nav-list {
+	font-size: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.main-nav-item,
+.header-logo {
+	font-size: 14px;
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
+	outline: 1px solid #000;
+	text-align: center;
+}
+
+.header-logo {
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
+	outline: 1px solid #000;	
+}
+
+.of-sedona {
+	outline: 1px solid #000;
+	text-align: center;
+}
+
+
+.blocks-item {
+	width: 33.3333%;
+	text-align: center;
+	float: left;
+	outline: 1px solid #000;
+	min-height: 260px;
+}
+
+.blocks-item-long {
+	width: 66.6666%;
+	text-align: center;
+	float: left;
+	outline: 1px solid #000;
+	min-height: 260px;
+}
+.blocks-item-blue {
+	background-color: #81b3d2; 
+}
+.wrap-gray {
+	background-color: #eeeeee;
+}
+.form {
+	outline: 1px solid #000;
+	text-align: center;
+}
+
+.footer-visitsedona {
+	text-align: center;
+	outline: 1px solid #000;
+	float: left;
+	width: 240px;
+	margin: 0 72px 0 87px;
+}
+
+.footer-social {
+	text-align: center;
+	outline: 1px solid #000;
+	float: left;
+	width: 400px;
+}
+
+.footer-social-item {
+	list-style-type: none;
+}
+/* УУУРРРРАААААААА */
+
+.footer-academy {
+	text-align: center;
+	outline: 1px solid #000;
+	float: right;
+	width: 240px;
+	margin: 0 72px 0 87px;
+}
+
+.filters {
+	background-color: blue;
+
+}
+.filters-left-1,
+.filters-left-2 {
+	text-align: left; /* сомневаюсь в нужности*/
+	width: 240px;
+	float: left;
+	outline: 1px solid #000;
+	min-height: 217px;
+	margin-left: 73px; /*для первой колонки марджин нужен, а для второй нет, как это сделать? я добавила дивы filters-left-1*/
+}
+
+.filters-left-3 {
+	text-align: right; /* сомневаюсь в нужности*/
+	width: 328px;
+	float: right;
+	outline: 1px solid #000;
+	min-height: 217px;
+	margin-right: 73px; 
+}
+
+.results-top {
+	background-color: #d6daaf; 
+}
+
+.results-top-left { /* не знаю как разместить текст в одну линию*/
+	width: 528px;
+	float: left;
+	outline: 1px solid #000;
+	min-height: 55px;
+	margin-left: 73px; 
+	text-align: left;
+}
+
+.results-top-right {
+	width: 240px;
+	float: right;
+	outline: 1px solid #000;
+	min-height: 55px;
+	margin-right: 73px; 
+	text-align: right;
+}
+
+.results-page {
+	background-color: red;
+}
+
+.results-page-item {
+	width: 1128px;
+	outline: 1px solid #000;
+	min-height: 151px;
+}
+
+.item-left {
+	outline: 1px solid #000;
+	width: 528px;
+	float: left;
+	min-height: 151px;
+	text-align: left;
+	margin-right: 41px;
+}
+
+.item-right {
+	outline: 1px solid #000;
+	width: 241px;
+	float: right;
+	min-height: 151px;
+	text-align: right;
+}
+
+
